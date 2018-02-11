@@ -1,10 +1,11 @@
 Ambient Weather F007TH Wireless Thermo-Hygrometer (for WS-07, WS-08, WS-10 Weather Stations)
+Also sold as TFA sensor 30.3208.02.
 
 Manchester encoding ('1': H->L transition)
 Bit time: 1ms
 Each packet (65bits) is repeated 3 times (back-to-back) => 195 bits frame
 Frames are sent about every minute. The exact interval is based on the 
-   channel id: (1:53s, 2:57s, 3:59s, 4:61s, 5:67s, 7:71s, 8:73s).
+   channel id: (1:53s, 2:57s, 3:59s, 4:61s, 5:67s, 6:71s, 7:73s, 8:79s).
 
 <R> random id (at reset)
 <C> channel id 
